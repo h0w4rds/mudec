@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <lang="en">
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Study Abroad Journal</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,158 +10,165 @@
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
             crossorigin="anonymous"></script>
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
-</head>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Journal d'Études à l'Étranger</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">About</h5>
+                            <p class="card-text">Hello, World!</p>
+                            <div class="collapse mb-3" id="about">
+                                <p>My name is Rill Howard, and this is a simple little card grid journal detailing tiny
+                                    insights of the MUDEC Summer 2022 study abroad experience.</p>
+                                <p>Enjoy!</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#about"
+                                aria-expanded="false">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 46</h5>
+                            <p class="card-text">The final day.</p>
+                            <div class="collapse mb-3" id="day46">
+                                <p>Today has been a lot of productivity. I got up, wrote two essays, handled package
+                                    transport, handled apartment and SIM business, then went to get an Orange SIM set up,
+                                    then began to study for a Rao test, then went had another essay to return to. But, I'm
+                                    almost in the clear for three courses, and then I'll have only one course and a TAship
+                                    to worry about... if only!</p>
+                                <p>This has been a very worthwhile investment.</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day46"
+                                aria-expanded="false">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 45</h5>
+                            <p class="card-text">Lab? No lab?</p>
+                            <div class="collapse mb-3" id="day45">
+                                <p>The world may never know!</p>
+                                <p>(until 7:30 PM precisely)</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day45"
+                                aria-expanded="false">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 44</h5>
+                            <p class="card-text">I am Sonic.</p>
+                            <div class="collapse mb-3" id="day44">
+                                <p>(Gotta go fast! Gotta go fast! Gotta go faster, faster, <b>fasterfasterfaster</b>!)</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day44"
+                                aria-expanded="false">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 43</h5>
+                            <p class="card-text">Dr. Rao's course exhausted.</p>
+                            <div class="collapse mb-3" id="day43">
+                                <p>If the MUDEC finals and start of Dr. Rao's course are this time-and-energy-consuming,
+                                    then I can only imagine how Dr. Rao's (+ TAship's) finals and Tartu's remote week will
+                                    be.</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day43"
+                                aria-expanded="false">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 42</h5>
+                            <p class="card-text">Dr. Rao's course started.</p>
+                            <div class="collapse mb-3" id="day42">
+                                <p>At MUDEC, we have this finals' Monday off. I went to the groceries, did laundry, sat down
+                                    to
+                                    catch up on these entries, and am about to sonic my way through either my work for the
+                                    week or the internet; it's anyone's guess as to which of those two options will be
+                                    victorious.</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day42"
+                                aria-expanded="false">Read more</button>
 
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Journal d'Études à l'Étranger</h1>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class=card-title">About</h5>
-                        <p class="card-text">Hello, World!</p>
-                        <div class="collapse mb-3" id="about">
-                            <p>My name is Rill Howard, and this is a simple little card grid journal detailing tiny insights of the MUDEC Summer 2022 study abroad experience.</p>
-                            <p>Enjoy!</p>
                         </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#about"
-                            aria-expanded="false">Read more</button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class=card-title">Day 46</h5>
-                        <p class="card-text">The final day.</p>
-                        <div class="collapse mb-3" id="day46">
-                            <p>Today has been a lot of productivity. I got up, wrote two essays, handled package transport, handled apartment and SIM business, then went to get an Orange SIM set up, then began to study for a Rao test, then went had another essay to return to. But, I'm almost in the clear for three courses, and then I'll have only one course and a TAship to worry about... if only!</p>
-                            <p>This has been a very worthwhile investment.</p>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 41</h5>
+                            <p class="card-text">I am a zombie.</p>
+                            <div class="collapse mb-3" id="day41">
+                                <p>I spent all day in bed. No groceries, no laundry, no reading, no watching Dr. Rao's
+                                    videos ahead of time. I'm exhausted.</p>
+                                <p>Yesterday, I jested about feeling more amd more like a zombie the closer we got to
+                                    Luxembourg. It wasn't a jest. It's actually Day 42 that I'm catching up on these and I
+                                    got out of bed maybe twice in the entire of yesterday. I was very out of it with the
+                                    exhaustion.</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day41"
+                                aria-expanded="false">Read more</button>
                         </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day46"
-                            aria-expanded="false">Read more</button>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 40</h5>
+                            <p class="card-text">Planes.</p>
+                            <div class="collapse mb-3" id="day40">
+                                <p>Thats all.</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day40"
+                                aria-expanded="false">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 39</h5>
+                            <p class="card-text">Gdansk.</p>
+                            <div class="collapse mb-3" id="day39">
+                                <p>Today, we visited the Museum of the Second World War. This museum focused much on
+                                    Poland's involvement during the war. Afterwards, a few of my peers expressed shock at
+                                    how war permeats every aspect of one's life. I have to wonder if they hadn't made the
+                                    connection prior about the US' crimes in the middle east.</p>
+                                <p>The museum also focused much on the Soviet Union during WWII, which goes entirely
+                                    unemphasized in US education.</p>
+                                <p>After taking time to process this and recent events in the US, I hopped onboard a boat
+                                    and watched the sunset from the Baltic Sea, befriending two women enjoying their weekend
+                                    and dancing to folk music. Sometimes, you just need to listen to the water and be out in
+                                    fresh, open air.</p>
+                            </div>
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day39"
+                                aria-expanded="false">Read more</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class=card-title">Day 45</h5>
-                        <p class="card-text">Lab? No lab?</p>
-                        <div class="collapse mb-3" id="day45">
-                            <p>The world may never know!</p>
-                            <p>(until 7:30 PM precisely)</p>
-                        </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day45"
-                            aria-expanded="false">Read more</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Day 44</h5>
-                        <p class="card-text">I am Sonic.</p>
-                        <div class="collapse mb-3" id="day44">
-                            <p>(Gotta go fast! Gotta go fast! Gotta go faster, faster, <b>fasterfasterfaster</b>!)</p>
-                        </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day44"
-                            aria-expanded="false">Read more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Day 43</h5>
-                        <p class="card-text">Dr. Rao's course exhausted.</p>
-                        <div class="collapse mb-3" id="day43">
-                            <p>If the MUDEC finals and start of Dr. Rao's course are this time-and-energy-consuming, then I can only imagine how Dr. Rao's (+ TAship's) finals and Tartu's remote week will be.</p>
-                        </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day43"
-                            aria-expanded="false">Read more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Day 42</h5>
-                        <p class="card-text">Dr. Rao's course started.</p>
-                        <div class="collapse mb-3" id="day42">
-                            <p>At MUDEC, we have this finals' Monday off. I went to the groceries, did laundry, sat down to
-                                catch up on these entries, and am about to sonic my way through either my work for the
-                                week or the internet; it's anyone's guess as to which of those two options will be
-                                victorious.</p>
-                        </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day42"
-                            aria-expanded="false">Read more</button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Day 41</h5>
-                        <p class="card-text">I am a zombie.</p>
-                        <div class="collapse mb-3" id="day41">
-                            <p>I spent all day in bed. No groceries, no laundry, no reading, no watching Dr. Rao's
-                                videos ahead of time. I'm exhausted.</p>
-                            <p>Yesterday, I jested about feeling more amd more like a zombie the closer we got to
-                                Luxembourg. It wasn't a jest. It's actually Day 42 that I'm catching up on these and I
-                                got out of bed maybe twice in the entire of yesterday. I was very out of it with the
-                                exhaustion.</p>
-                        </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day41"
-                            aria-expanded="false">Read more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Day 40</h5>
-                        <p class="card-text">Planes.</p>
-                        <div class="collapse mb-3" id="day40">
-                            <p>Thats all.</p>
-                        </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day40"
-                            aria-expanded="false">Read more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Day 39</h5>
-                        <p class="card-text">Gdansk.</p>
-                        <div class="collapse mb-3" id="day39">
-                            <p>Today, we visited the Museum of the Second World War. This museum focused much on
-                                Poland's involvement during the war. Afterwards, a few of my peers expressed shock at
-                                how war permeats every aspect of one's life. I have to wonder if they hadn't made the
-                                connection prior about the US' crimes in the middle east.</p>
-                            <p>The museum also focused much on the Soviet Union during WWII, which goes entirely
-                                unemphasized in US education.</p>
-                            <p>After taking time to process this and recent events in the US, I hopped onboard a boat
-                                and watched the sunset from the Baltic Sea, befriending two women enjoying their weekend
-                                and dancing to folk music. Sometimes, you just need to listen to the water and be out in
-                                fresh, open air.</p>
-                        </div>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#day39"
-                            aria-expanded="false">Read more</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
+            <div class="row">
                 <div class="col-sm">
                     <div class="card">
                         <div class="card-body">
@@ -858,14 +863,13 @@
                     <a href="https://linkedin.com/in/h0w4rds/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                         </svg>
                     </a>
                 </span>
                 <p>May - July 2022</p>
             </footer>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
